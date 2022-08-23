@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,GAAG;EAEhB,WAAW,EAAE,IAAI;EAEjB,KAAK,EAAE,OAAO;CACjB;;AACD,AAAA,OAAO,CAAC;EACJ,SAAS,EAAE,IAAI;CAClB;;AACD,AAAA,OAAO,CAAC;EACJ,SAAS,EAAE,IAAI;CAClB;;AACD,AAAA,OAAO,CAAC;EACJ,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "P.module.scss"
+    ],
+    "names": [],
+    "file": "P.module.css"
+}

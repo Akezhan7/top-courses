@@ -1,0 +1,185 @@
+.product {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.product hr {
+  width: 100%;
+  border: 1px solid #EBEBEB;
+  margin: 20px 0;
+}
+
+.genBlock {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.firstBlock {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.secondBlock {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[3];
+      grid-template-columns: repeat(3, auto);
+  gap: 10px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 3px;
+}
+
+.price, .credit {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.rateTitle span {
+  cursor: pointer;
+}
+
+.priceTitle, .creditTitle, .rateTitle {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.threeBlock {
+  margin-top: 14px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.charsName {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.chars {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr auto;
+      grid-template-columns: auto 1fr auto;
+  padding-right: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.charsDots {
+  border-bottom: 1px dashed #C4C4C4;
+  margin-top: 9px;
+}
+
+.charsValue {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.advTitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.advSubTitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 5px;
+}
+
+.advantages {
+  border-left: 3px solid #1DC47E;
+  padding-left: 15px;
+}
+
+.disadvantages {
+  border-left: 3px solid #FC836D;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+.opened {
+  max-height: auto;
+  padding: 30px;
+}
+
+.closed {
+  overflow: hidden;
+  max-height: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1354px) {
+  .genBlock {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .secondBlock {
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (max-width: 1022px) {
+  .threeBlock {
+    margin-top: 14px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .chars {
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .secondBlock {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .actions {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    gap: 10px;
+  }
+  .actions button {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=Product.module.css.map */

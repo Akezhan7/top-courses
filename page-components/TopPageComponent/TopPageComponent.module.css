@@ -1,0 +1,65 @@
+.header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr auto;
+      grid-template-columns: auto 1fr auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: left;
+  gap: 20px;
+}
+
+.hhTitle {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  gap: 20px;
+}
+
+.adv {
+  margin-top: 47px;
+}
+
+.titleAdv {
+  margin-bottom: 27px;
+}
+
+.tagsWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.seo h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 35px;
+  color: #3B434E;
+}
+
+.seo h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #3B434E;
+}
+
+.seo h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #3B434E;
+}
+/*# sourceMappingURL=TopPageComponent.module.css.map */

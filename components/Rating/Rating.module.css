@@ -1,0 +1,37 @@
+.star {
+  width: 25px;
+}
+
+.star:last-child {
+  margin-right: 0;
+}
+
+.filled {
+  fill: #7653FC;
+}
+
+.edit {
+  cursor: pointer;
+}
+
+.blos {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.error {
+  fill: #eeb3b3;
+}
+
+.wrap {
+  position: relative;
+}
+
+.errorMessage {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  font-size: 13px;
+  color: red;
+}
+/*# sourceMappingURL=Rating.module.css.map */

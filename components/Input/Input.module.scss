@@ -1,0 +1,37 @@
+.input {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+
+    padding: 5px 12px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #A4A4A4;
+
+    border: none;
+
+    outline-color: #7653FC;
+    
+    background: white;
+
+    &::placeholder {
+        color: #A4A4A4;
+    }
+
+}
+.error {
+    border: 1px solid red;
+    outline-color: red;
+}
+.wrap {
+    position: relative;
+}
+
+.errorMessage {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-size: 13px;
+    color: red;
+}

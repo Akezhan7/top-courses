@@ -1,0 +1,23 @@
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  gap: 0 40px;
+  margin-bottom: 21px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #3B434E;
+  margin-top: 10px;
+}
+
+.descr {
+  border-left: 1px solid #D2D2D2;
+  margin-left: 24px;
+  padding-left: 66px;
+}
+/*# sourceMappingURL=Advantages.module.css.map */

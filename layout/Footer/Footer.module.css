@@ -1,0 +1,16 @@
+.text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.text:last-child {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 860px) {
+  .text:last-child {
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=Footer.module.css.map */

@@ -1,0 +1,162 @@
+.product {
+    text-align: left;
+    margin-top: 30px;
+    hr {
+        width: 100%;
+        border: 1px solid #EBEBEB;
+        margin: 20px 0;
+    }
+}
+.genBlock {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.firstBlock {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 30px;
+}
+
+.secondBlock {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 3px;
+}
+.price, .credit {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+.rateTitle {
+    span {
+        cursor: pointer;
+    }
+}
+.priceTitle, .creditTitle, .rateTitle {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.threeBlock {
+    margin-top: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.charsName {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.chars {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+
+    padding-right: 60px;
+    align-items: center;
+}
+
+.charsDots {
+    border-bottom: 1px dashed #C4C4C4;
+    margin-top: 9px;
+}
+.charsValue {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+.advTitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+.advSubTitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 5px;
+}
+
+.advantages {
+    border-left: 3px solid #1DC47E;
+    padding-left: 15px;
+}
+
+.disadvantages {
+    border-left: 3px solid #FC836D;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+// ОТЗЫВЫ
+.opened {
+    max-height: auto;
+    padding: 30px;
+}
+.closed {
+    overflow: hidden;
+    max-height: 0;
+    padding: 0;
+}
+// ОТЗЫВЫ
+
+@media screen and (max-width:1354px) {
+    .genBlock {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+
+    .secondBlock {
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (max-width:1022px) {
+    .threeBlock {
+        margin-top: 14px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .chars {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .secondBlock {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:580px) {
+}
+
+@media screen and (max-width:350px) {
+    .actions {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        button {
+            margin: 0;
+        }
+    }
+}

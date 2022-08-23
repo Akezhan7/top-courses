@@ -1,0 +1,61 @@
+.firstLevel {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    align-items: center;
+    gap: 20px;
+    color: #787D85;
+    margin-bottom: 14px;
+    span {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+.secondLevel {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #787D85;
+    cursor: pointer;
+}
+
+.thirdLevel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: block;
+    color: #787D85;
+    margin: 10px 0;
+    &:last-child {
+        margin-bottom: 20px;
+    }
+}
+
+.secondBlockElem {
+    margin: 10px 0;
+}
+.thirdLevelActive {
+    color:#4528b9;
+    transition: all 0.2s;
+    &:hover {
+        color:#4528b9;
+    }
+}
+.secondBlock {
+    margin-left: 8px;
+    border-left: 1px solid #DFDFDF;
+    padding: 10px 0 10px 32px;
+}
+.secondLevelBlock {
+    display: none;
+}
+.secondLevelBlockOpened {
+    display: block;
+}
+.firstLevelActive {
+    color: #4528b9;
+    svg {
+        fill: #4528b9;
+    }
+}
